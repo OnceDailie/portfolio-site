@@ -1,0 +1,362 @@
+body {
+background-color: white;
+}
+
+header {
+padding-bottom: 9px
+}
+
+/*
+nav {
+margin-top: -40px;
+float: right;
+background-color: black;
+width: 100%
+}
+
+a {
+font-family: 'Cinzel', serif;
+text-decoration: none;
+float: right;
+}
+
+nav li {
+    float: right;
+    margin-left: 50px;
+    margin-top: 20px;
+    color: white;
+}
+
+a.nav {
+    text-align: center;
+}
+
+ul, li,a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+}
+*/
+
+.feature-img {
+opacity: 0.7;  
+background-image:url(img/galaxy_monroe%20-%20Copy.jpg);
+background-repeat:no-repeat;
+background-size: cover;
+padding: 300px;
+position: relative;
+}
+
+.feature-img:hover {
+opacity: 1;
+}
+
+.feature-text p {
+font-family: 'Didact Gothic', sans-serif;
+line-height: 25px;
+background-color: rgba(0,0, 0,0.5);
+margin: 20px;
+font-size: 16px;
+position: absolute;
+left: 50px;
+top: 95px;
+color: white;
+font-weight:;
+padding: 15px;
+margin-right:1300px
+}
+
+.feature-text h1 {
+font-family: 'Permanent Marker', cursive;
+background-color: rgba(0,0, 0,0.5);
+margin: 20px;
+font-size: 24px;
+position: absolute;
+left: 50px;
+top: 25px;
+color: white;
+font-weight:;
+padding: 15px;
+margin-right: 1100px
+}
+
+.about-sec {
+background-color: black;
+padding: 150px;
+margin-top:;
+position: relative;
+}
+
+.about-sec2 {
+background-color: black;
+padding: 40px;
+margin-top:;
+position: relative;
+}
+
+.about-text p {
+line-height: 20px;
+font-family: 'Didact Gothic', sans-serif;
+background-color: rgba(255,255, 255,0.1);
+font-size: 16px;
+position: absolute;
+top: 710px;
+left: 1220px;
+color: white;
+padding: 10px;
+margin-right:300px
+}
+
+.about-text h1 {
+font-family: 'Permanent Marker', cursive;
+background-color: rgba(255,255, 255,0.1);
+margin: 20px;
+font-size: 24px;
+position: absolute;
+left: 1200px;
+top:615px;
+color: white;
+font-weight:;
+padding: 15px;
+margin-right: 100px
+}
+
+.body-img {
+opacity: 0.7;
+background-image: url(img/Dakota_landscape.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+width: 100%;
+padding-bottom: 500px;
+position: relative;
+}
+
+.body-img2 {
+opacity: 0.7;
+background-image: url(img/Smoke_poe.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+width: 100%;
+padding-bottom: 420px;
+position: relative;
+}
+
+.body-img2:hover {
+opacity: 1;
+}
+
+.body-text-2{
+font-family: 'Permanent Marker', cursive;
+background-color: rgba(0,0, 0,0.5);
+margin: 20px;
+font-size: 24px;
+position: absolute;
+left: 50px;
+top: 2320px;
+color: white;
+font-weight:;
+padding: 15px;
+margin-right: 100px
+}
+
+.body-text-3 {
+line-height: 20px;
+font-family: 'Didact Gothic', sans-serif;
+background-color: rgba(0,0, 0,0.5);
+margin: 20px;
+font-size: 16px;
+position: absolute;
+left: 50px;
+top: 1070px;
+color: white;
+font-weight:;
+padding: 15px;
+margin-right: 1400px   
+}
+
+.body-text p {
+line-height: 20px;
+font-family: 'Didact Gothic', sans-serif;
+background-color: rgba(0,0, 0,0.5);
+margin: 20px;
+font-size: 16px;
+position: absolute;
+left: 50px;
+top: 1070px;
+color: white;
+font-weight:;
+padding: 15px;
+margin-right: 1400px
+}
+
+.body-text h1 {
+font-family: 'Permanent Marker', cursive;
+background-color: rgba(0,0, 0,0.5);
+margin: 20px;
+font-size: 24px;
+position: absolute;
+left: 50px;
+top: 1000px;
+color: white;
+font-weight:;
+padding: 15px;
+margin-right: 100px
+}
+
+footer {
+background-color: black;
+padding-bottom: 20px;
+padding-top: 20px;
+margin-top: -1p;
+}
+
+footer ul li a {
+font-family: 'Didact Gothic', sans-serif;
+margin-left:60px;
+color: white;
+font-size: 30px;
+
+}
+
+a  {
+list-style-type: none;
+text-decoration: none;
+list-style: none;
+}
+
+.owl-img {
+height: 700px;
+padding:5px;
+background-color: black;
+}
+
+/* Navigation Menu - Background */
+.navigation {
+  /* critical sizing and position styles */
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0;
+  
+  /* non-critical appearance styles */
+  list-style: none;
+  background: #111;
+}
+
+/* Navigation Menu - List items */
+.nav-item {
+  /* non-critical appearance styles */
+  font-family: 'Didact Gothic', sans-serif;
+  width: 200px;
+  border-top: 1px solid #111;
+  border-bottom: 1px solid #000;
+}
+
+.nav-item a {
+  /* non-critical appearance styles */
+  display: block;
+  padding: 1em;
+  background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 100%);
+  color: white;
+  font-size: 1.2em;
+  text-decoration: none;
+  transition: color 0.2s, background 0.5s;
+}
+
+.nav-item a:hover {
+  color: #00FFFF;
+  background: linear-gradient(135deg, rgba(0,0,0,0) 0%,rgba(0,0,255,0.2) 100%);
+}
+
+/* Site Wrapper - Everything that isn't navigation */
+.site-wrap {
+  /* Critical position and size styles */
+  min-height: 100%;
+  min-width: 100%;
+  background-color: white; /* Needs a background or else the nav will show through */
+  position: relative;
+  top: 0;
+  bottom: 100%;
+  left: 0;
+  z-index: 1;
+  
+  /* non-critical apperance styles */
+  background-image: linear-gradient(135deg, rgb(254,255,255) 0%,rgb(221,241,249) 35%,rgb(160,216,239) 100%);
+  background-size: 200%;
+}
+
+/* Nav Trigger */
+.nav-trigger {
+  /* critical styles - hide the checkbox input */
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+
+label[for="nav-trigger"] {
+  /* critical positioning styles */
+  position: fixed;
+  left: 15px; top: 15px;
+  z-index: 2;
+  
+  /* non-critical apperance styles */
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.1' x='0px' y='0px' width='30px' height='30px' viewBox='0 0 30 30' enable-background='new 0 0 30 30' xml:space='preserve'><rect width='30' height='6' fill='white'/><rect y='24' width='30' height='6' fill='white'/><rect y='12' width='30' height='6' fill='white'/></svg>");
+  background-size: contain;
+}
+
+/* Make the Magic Happen */
+.nav-trigger + label, .site-wrap {
+  transition: left 0.2s;
+}
+
+.nav-trigger:checked + label {
+  left: 215px;
+}
+
+.nav-trigger:checked ~ .site-wrap {
+  left: 200px;
+  box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+}
+
+body {
+	/* Without this, the body has excess horizontal scroll when the menu is open */
+  overflow-x: hidden;
+}
+
+/* Additional non-critical styles */
+
+h1, h3, p {
+  max-width: 600px;
+  margin: 0 auto 1em;
+}
+
+code {
+	padding: 2px;
+	background: #ddd;
+}
+
+/* Micro reset */
+*,*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;margin:0;padding:0;}
+html, body { height: 100%; width: 100%; font-family: Helvetica, Arial, sans-serif; }
+
+
+/* Owl Carousel Custom Styles */
+
+.owl-theme  {
+    background-color: black;
+/*    border: 2px solid red;*/
+}
+
+.owl-theme .owl-controls .owl-page span {
+    border: 2px solid red;
+}
+
+
