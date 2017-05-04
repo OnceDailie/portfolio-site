@@ -232,6 +232,14 @@ padding:5px;
 background-color: black;
 }
 
+.othersite {
+    color: skyblue;
+}
+
+.othersite:hover {
+    color: white;
+}
+
 /* Navigation Menu - Background */
 .navigation {
   /* critical sizing and position styles */
